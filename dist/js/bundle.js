@@ -86,6 +86,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 console.log('webpack');
 (0, _module4.default)();
 
+var a = 111;
+var b = 222;
+var mul = function mul(c, d) {
+  return c * d;
+};
+console.log(mul(a, b));
+
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
